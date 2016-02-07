@@ -14,7 +14,40 @@
 		7AEF7A50C3E161ACA9C33111 /* EAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 255367F1B65F0BA08340E22E /* EAAppDelegate.m */; };
 		8BC6E897D86156E5E5871C69 /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F701CE52120D0CAB5D29AA6 /* libPods-unit_tests.a */; };
 		9EA25D82540EC6B56211BDE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC84FA1273E25BE17035698D /* Main.storyboard */; };
+		D93BEDF2D845C0D3C3026168 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35220D01C0B8165473A3C671 /* libPods.a */; };
 		E42E2900B3002235EF640930 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B924D062697256321CF9E10 /* Foundation.framework */; };
+		EE77F9BA1C67FBBE00995FC0 /* EASoundPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE77F9B91C67FBBE00995FC0 /* EASoundPlayerViewController.m */; };
+		EE77F9BE1C67FE3000995FC0 /* EASoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE77F9BD1C67FE2F00995FC0 /* EASoundManager.m */; };
+		EE77F9C01C68001C00995FC0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE77F9BF1C68001C00995FC0 /* AVFoundation.framework */; };
+		EE77F9C31C68006200995FC0 /* EASoundEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = EE77F9C21C68006200995FC0 /* EASoundEffect.m */; };
+		EE77F9C51C6800E100995FC0 /* EASoundEffectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE77F9C41C6800E100995FC0 /* EASoundEffectTests.m */; };
+		EE77F9E11C68057400995FC0 /* achievement.wav in Resources */ = {isa = PBXBuildFile; fileRef = EE77F9C71C68057400995FC0 /* achievement.wav */; };
+		EE77F9E21C68057400995FC0 /* ahh-nicely.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE77F9C81C68057400995FC0 /* ahh-nicely.mp3 */; };
+		EE77F9E31C68057400995FC0 /* boo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE77F9C91C68057400995FC0 /* boo.mp3 */; };
+		EE77F9E41C68057400995FC0 /* bubble.wav in Resources */ = {isa = PBXBuildFile; fileRef = EE77F9CA1C68057400995FC0 /* bubble.wav */; };
+		EE77F9E51C68057400995FC0 /* bubble1.wav in Resources */ = {isa = PBXBuildFile; fileRef = EE77F9CB1C68057400995FC0 /* bubble1.wav */; };
+		EE77F9E61C68057400995FC0 /* cake-full.aif in Resources */ = {isa = PBXBuildFile; fileRef = EE77F9CC1C68057400995FC0 /* cake-full.aif */; };
+		EE77F9E71C68057400995FC0 /* chat_incoming.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE77F9CD1C68057400995FC0 /* chat_incoming.mp3 */; };
+		EE77F9E81C68057400995FC0 /* click0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE77F9CE1C68057400995FC0 /* click0.mp3 */; };
+		EE77F9E91C68057400995FC0 /* click1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE77F9CF1C68057400995FC0 /* click1.mp3 */; };
+		EE77F9EA1C68057400995FC0 /* doom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE77F9D01C68057400995FC0 /* doom.mp3 */; };
+		EE77F9EB1C68057400995FC0 /* drumroll.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE77F9D11C68057400995FC0 /* drumroll.mp3 */; };
+		EE77F9EC1C68057400995FC0 /* elevator-badspeakers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE77F9D21C68057400995FC0 /* elevator-badspeakers.mp3 */; };
+		EE77F9ED1C68057400995FC0 /* gavel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE77F9D31C68057400995FC0 /* gavel.mp3 */; };
+		EE77F9EE1C68057400995FC0 /* ho.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE77F9D41C68057400995FC0 /* ho.mp3 */; };
+		EE77F9EF1C68057400995FC0 /* laser-prep-reverse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE77F9D51C68057400995FC0 /* laser-prep-reverse.mp3 */; };
+		EE77F9F01C68057400995FC0 /* laser-prep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE77F9D61C68057400995FC0 /* laser-prep.mp3 */; };
+		EE77F9F11C68057400995FC0 /* ninja-sword.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE77F9D71C68057400995FC0 /* ninja-sword.mp3 */; };
+		EE77F9F21C68057400995FC0 /* ninja-whack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE77F9D81C68057400995FC0 /* ninja-whack.mp3 */; };
+		EE77F9F31C68057400995FC0 /* ninja-whoosh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE77F9D91C68057400995FC0 /* ninja-whoosh.mp3 */; };
+		EE77F9F41C68057400995FC0 /* notice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE77F9DA1C68057400995FC0 /* notice.mp3 */; };
+		EE77F9F51C68057400995FC0 /* sad-trombone.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EE77F9DB1C68057400995FC0 /* sad-trombone.aiff */; };
+		EE77F9F61C68057400995FC0 /* select-classic.wav in Resources */ = {isa = PBXBuildFile; fileRef = EE77F9DC1C68057400995FC0 /* select-classic.wav */; };
+		EE77F9F71C68057400995FC0 /* small-applause.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE77F9DD1C68057400995FC0 /* small-applause.mp3 */; };
+		EE77F9F81C68057400995FC0 /* sonar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE77F9DE1C68057400995FC0 /* sonar.mp3 */; };
+		EE77F9F91C68057400995FC0 /* start-echo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE77F9DF1C68057400995FC0 /* start-echo.mp3 */; };
+		EE77F9FA1C68057400995FC0 /* whoosh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE77F9E01C68057400995FC0 /* whoosh.mp3 */; };
+		EE77F9FD1C6805A800995FC0 /* NSString+FileNames.m in Sources */ = {isa = PBXBuildFile; fileRef = EE77F9FC1C6805A800995FC0 /* NSString+FileNames.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,21 +62,58 @@
 
 /* Begin PBXFileReference section */
 		003CE0EB9FD5F0D7915D031C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C990C8BC0098362EA558DDA /* EASoundPlayerTests-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EASoundPlayerTests-Prefix.pch"; sourceTree = "<group>"; };
-		255367F1B65F0BA08340E22E /* EAAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EAAppDelegate.m; sourceTree = "<group>"; };
+		02B55DD732151AC8014FA903 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		07AAD1D82FB9E0C8FF4348CB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		255367F1B65F0BA08340E22E /* EAAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EAAppDelegate.m; path = Controllers/EAAppDelegate.m; sourceTree = "<group>"; };
 		27410384C8E1C14FEA7535F4 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		34A0701722D9B05CA3C1211B /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35220D01C0B8165473A3C671 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B924D062697256321CF9E10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		95E2C17536C29C0301B59374 /* Pods-unit_tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9F701CE52120D0CAB5D29AA6 /* libPods-unit_tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-unit_tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A047B70D37E1861123A5BDA4 /* LaunchScreen.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		B07B516CDEB80CE9DAB169A6 /* EASoundPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EASoundPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1B9D90C389589FB5D4A08B9 /* EASoundPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EASoundPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1D32155EF62233CDDC3A159 /* EASoundPlayerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EASoundPlayerTests-Info.plist"; sourceTree = "<group>"; };
 		BC84FA1273E25BE17035698D /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		BF6C201338A802A4D75305FE /* EAAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EAAppDelegate.h; sourceTree = "<group>"; };
+		BF6C201338A802A4D75305FE /* EAAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EAAppDelegate.h; path = Controllers/EAAppDelegate.h; sourceTree = "<group>"; };
 		CBC8D7A9B9D25994721544DB /* EASoundPlayer-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EASoundPlayer-Prefix.pch"; sourceTree = "<group>"; };
 		E698BFCA4C6E351C0BF93828 /* Settings.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		EE77F9B81C67FBBE00995FC0 /* EASoundPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EASoundPlayerViewController.h; sourceTree = "<group>"; };
+		EE77F9B91C67FBBE00995FC0 /* EASoundPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EASoundPlayerViewController.m; sourceTree = "<group>"; };
+		EE77F9BC1C67FE2F00995FC0 /* EASoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EASoundManager.h; sourceTree = "<group>"; };
+		EE77F9BD1C67FE2F00995FC0 /* EASoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EASoundManager.m; sourceTree = "<group>"; };
+		EE77F9BF1C68001C00995FC0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EE77F9C11C68006200995FC0 /* EASoundEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EASoundEffect.h; sourceTree = "<group>"; };
+		EE77F9C21C68006200995FC0 /* EASoundEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EASoundEffect.m; sourceTree = "<group>"; };
+		EE77F9C41C6800E100995FC0 /* EASoundEffectTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EASoundEffectTests.m; sourceTree = "<group>"; };
+		EE77F9C71C68057400995FC0 /* achievement.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = achievement.wav; sourceTree = "<group>"; };
+		EE77F9C81C68057400995FC0 /* ahh-nicely.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ahh-nicely.mp3"; sourceTree = "<group>"; };
+		EE77F9C91C68057400995FC0 /* boo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = boo.mp3; sourceTree = "<group>"; };
+		EE77F9CA1C68057400995FC0 /* bubble.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bubble.wav; sourceTree = "<group>"; };
+		EE77F9CB1C68057400995FC0 /* bubble1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bubble1.wav; sourceTree = "<group>"; };
+		EE77F9CC1C68057400995FC0 /* cake-full.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "cake-full.aif"; sourceTree = "<group>"; };
+		EE77F9CD1C68057400995FC0 /* chat_incoming.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chat_incoming.mp3; sourceTree = "<group>"; };
+		EE77F9CE1C68057400995FC0 /* click0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click0.mp3; sourceTree = "<group>"; };
+		EE77F9CF1C68057400995FC0 /* click1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click1.mp3; sourceTree = "<group>"; };
+		EE77F9D01C68057400995FC0 /* doom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = doom.mp3; sourceTree = "<group>"; };
+		EE77F9D11C68057400995FC0 /* drumroll.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = drumroll.mp3; sourceTree = "<group>"; };
+		EE77F9D21C68057400995FC0 /* elevator-badspeakers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "elevator-badspeakers.mp3"; sourceTree = "<group>"; };
+		EE77F9D31C68057400995FC0 /* gavel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gavel.mp3; sourceTree = "<group>"; };
+		EE77F9D41C68057400995FC0 /* ho.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ho.mp3; sourceTree = "<group>"; };
+		EE77F9D51C68057400995FC0 /* laser-prep-reverse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "laser-prep-reverse.mp3"; sourceTree = "<group>"; };
+		EE77F9D61C68057400995FC0 /* laser-prep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "laser-prep.mp3"; sourceTree = "<group>"; };
+		EE77F9D71C68057400995FC0 /* ninja-sword.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ninja-sword.mp3"; sourceTree = "<group>"; };
+		EE77F9D81C68057400995FC0 /* ninja-whack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ninja-whack.mp3"; sourceTree = "<group>"; };
+		EE77F9D91C68057400995FC0 /* ninja-whoosh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ninja-whoosh.mp3"; sourceTree = "<group>"; };
+		EE77F9DA1C68057400995FC0 /* notice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = notice.mp3; sourceTree = "<group>"; };
+		EE77F9DB1C68057400995FC0 /* sad-trombone.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "sad-trombone.aiff"; sourceTree = "<group>"; };
+		EE77F9DC1C68057400995FC0 /* select-classic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "select-classic.wav"; sourceTree = "<group>"; };
+		EE77F9DD1C68057400995FC0 /* small-applause.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "small-applause.mp3"; sourceTree = "<group>"; };
+		EE77F9DE1C68057400995FC0 /* sonar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sonar.mp3; sourceTree = "<group>"; };
+		EE77F9DF1C68057400995FC0 /* start-echo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "start-echo.mp3"; sourceTree = "<group>"; };
+		EE77F9E01C68057400995FC0 /* whoosh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whoosh.mp3; sourceTree = "<group>"; };
+		EE77F9FB1C6805A800995FC0 /* NSString+FileNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FileNames.h"; sourceTree = "<group>"; };
+		EE77F9FC1C6805A800995FC0 /* NSString+FileNames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FileNames.m"; sourceTree = "<group>"; };
 		F5C0238880362E8138DCED3E /* Pods-unit_tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,23 +130,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE77F9C01C68001C00995FC0 /* AVFoundation.framework in Frameworks */,
 				E42E2900B3002235EF640930 /* Foundation.framework in Frameworks */,
+				D93BEDF2D845C0D3C3026168 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0FB8FF12A67365F558B7A4C7 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
 		1B8002855DC970852E46C4B0 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				EE77F9C41C6800E100995FC0 /* EASoundEffectTests.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -93,6 +159,8 @@
 			children = (
 				F5C0238880362E8138DCED3E /* Pods-unit_tests.release.xcconfig */,
 				95E2C17536C29C0301B59374 /* Pods-unit_tests.debug.xcconfig */,
+				02B55DD732151AC8014FA903 /* Pods.release.xcconfig */,
+				07AAD1D82FB9E0C8FF4348CB /* Pods.debug.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -100,6 +168,8 @@
 		43561C19DBC5DB3FDCCFB6C1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				EE77F9C11C68006200995FC0 /* EASoundEffect.h */,
+				EE77F9C21C68006200995FC0 /* EASoundEffect.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -117,26 +187,19 @@
 		46469DC1B339605A6D432FE5 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				BF6C201338A802A4D75305FE /* EAAppDelegate.h */,
-				255367F1B65F0BA08340E22E /* EAAppDelegate.m */,
+				EE77F9B81C67FBBE00995FC0 /* EASoundPlayerViewController.h */,
+				EE77F9B91C67FBBE00995FC0 /* EASoundPlayerViewController.m */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		4A584A01553F05322CCFF498 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				B1D32155EF62233CDDC3A159 /* EASoundPlayerTests-Info.plist */,
-				0C990C8BC0098362EA558DDA /* EASoundPlayerTests-Prefix.pch */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		5D1BAF1F51D4AD96BFBF3C9C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EE77F9BF1C68001C00995FC0 /* AVFoundation.framework */,
 				C5C5BE7F0D89E68BAE162D9A /* iOS */,
 				9F701CE52120D0CAB5D29AA6 /* libPods-unit_tests.a */,
+				35220D01C0B8165473A3C671 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,9 +222,10 @@
 		84C73CD010B47BB4573681B8 /* EASoundPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				BF6C201338A802A4D75305FE /* EAAppDelegate.h */,
+				255367F1B65F0BA08340E22E /* EAAppDelegate.m */,
+				EE77F9BB1C67FE1600995FC0 /* Singletons */,
 				E4FF4DF4F2C9A11E74AFB279 /* Categories */,
-				0FB8FF12A67365F558B7A4C7 /* Protocols */,
-				CD12481C213AAF55C5792812 /* Headers */,
 				43561C19DBC5DB3FDCCFB6C1 /* Models */,
 				76F66F1D2566987636EF3E92 /* ViewModels */,
 				46469DC1B339605A6D432FE5 /* Controllers */,
@@ -196,8 +260,6 @@
 		BDE6618B244704B91D514685 /* EASoundPlayerTests */ = {
 			isa = PBXGroup;
 			children = (
-				4A584A01553F05322CCFF498 /* Resources */,
-				FD437C4BD316946D526031C4 /* Helpers */,
 				1B8002855DC970852E46C4B0 /* Tests */,
 			);
 			path = EASoundPlayerTests;
@@ -211,16 +273,11 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		CD12481C213AAF55C5792812 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Headers;
-			sourceTree = "<group>";
-		};
 		E4FF4DF4F2C9A11E74AFB279 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				EE77F9FB1C6805A800995FC0 /* NSString+FileNames.h */,
+				EE77F9FC1C6805A800995FC0 /* NSString+FileNames.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -231,6 +288,7 @@
 				27410384C8E1C14FEA7535F4 /* Images.xcassets */,
 				ACDB8AE9697211B1609368D2 /* Storyboards */,
 				72DF676AECB96CEF3D0F1B03 /* Nibs */,
+				EE77F9C61C68052300995FC0 /* Sound Files */,
 				462717F58AA0D31E95D8225F /* Other-Sources */,
 				E698BFCA4C6E351C0BF93828 /* Settings.bundle */,
 			);
@@ -246,11 +304,46 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FD437C4BD316946D526031C4 /* Helpers */ = {
+		EE77F9BB1C67FE1600995FC0 /* Singletons */ = {
 			isa = PBXGroup;
 			children = (
+				EE77F9BC1C67FE2F00995FC0 /* EASoundManager.h */,
+				EE77F9BD1C67FE2F00995FC0 /* EASoundManager.m */,
 			);
-			path = Helpers;
+			name = Singletons;
+			sourceTree = "<group>";
+		};
+		EE77F9C61C68052300995FC0 /* Sound Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE77F9C71C68057400995FC0 /* achievement.wav */,
+				EE77F9C81C68057400995FC0 /* ahh-nicely.mp3 */,
+				EE77F9C91C68057400995FC0 /* boo.mp3 */,
+				EE77F9CA1C68057400995FC0 /* bubble.wav */,
+				EE77F9CB1C68057400995FC0 /* bubble1.wav */,
+				EE77F9CC1C68057400995FC0 /* cake-full.aif */,
+				EE77F9CD1C68057400995FC0 /* chat_incoming.mp3 */,
+				EE77F9CE1C68057400995FC0 /* click0.mp3 */,
+				EE77F9CF1C68057400995FC0 /* click1.mp3 */,
+				EE77F9D01C68057400995FC0 /* doom.mp3 */,
+				EE77F9D11C68057400995FC0 /* drumroll.mp3 */,
+				EE77F9D21C68057400995FC0 /* elevator-badspeakers.mp3 */,
+				EE77F9D31C68057400995FC0 /* gavel.mp3 */,
+				EE77F9D41C68057400995FC0 /* ho.mp3 */,
+				EE77F9D51C68057400995FC0 /* laser-prep-reverse.mp3 */,
+				EE77F9D61C68057400995FC0 /* laser-prep.mp3 */,
+				EE77F9D71C68057400995FC0 /* ninja-sword.mp3 */,
+				EE77F9D81C68057400995FC0 /* ninja-whack.mp3 */,
+				EE77F9D91C68057400995FC0 /* ninja-whoosh.mp3 */,
+				EE77F9DA1C68057400995FC0 /* notice.mp3 */,
+				EE77F9DB1C68057400995FC0 /* sad-trombone.aiff */,
+				EE77F9DC1C68057400995FC0 /* select-classic.wav */,
+				EE77F9DD1C68057400995FC0 /* small-applause.mp3 */,
+				EE77F9DE1C68057400995FC0 /* sonar.mp3 */,
+				EE77F9DF1C68057400995FC0 /* start-echo.mp3 */,
+				EE77F9E01C68057400995FC0 /* whoosh.mp3 */,
+			);
+			name = "Sound Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,11 +374,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9FDA4F18317A298DE33F6F85 /* Build configuration list for PBXNativeTarget "EASoundPlayer" */;
 			buildPhases = (
+				2158D6C37F3AEB771A62510E /* Check Pods Manifest.lock */,
 				860F4EB66D7F0CE42619756E /* Sources */,
 				9B99A4C217B859F4D81636F8 /* Frameworks */,
 				225BE3A434BBD5D173B841D8 /* Resources */,
 				03C1C9537FB7129C3FA3A819 /* Warn for TODO and FIXME comments */,
 				FB135F7261218200E9D4974F /* Set version number */,
+				C96CE4C97EB2DDBCA36AED37 /* Embed Pods Frameworks */,
+				25D3F20BDB739DABF0AF6B75 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -304,7 +400,7 @@
 			attributes = {
 				CLASSPREFIX = EA;
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Skye Freeman";
 			};
 			buildConfigurationList = 13D7D23687D03C570295FC90 /* Build configuration list for PBXProject "EASoundPlayer" */;
@@ -330,10 +426,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE77F9E91C68057400995FC0 /* click1.mp3 in Resources */,
+				EE77F9E21C68057400995FC0 /* ahh-nicely.mp3 in Resources */,
+				EE77F9F81C68057400995FC0 /* sonar.mp3 in Resources */,
+				EE77F9E61C68057400995FC0 /* cake-full.aif in Resources */,
 				5C79C74099EE53D3A6AEF9A0 /* Images.xcassets in Resources */,
+				EE77F9E41C68057400995FC0 /* bubble.wav in Resources */,
+				EE77F9E11C68057400995FC0 /* achievement.wav in Resources */,
 				9EA25D82540EC6B56211BDE3 /* Main.storyboard in Resources */,
+				EE77F9F91C68057400995FC0 /* start-echo.mp3 in Resources */,
+				EE77F9F61C68057400995FC0 /* select-classic.wav in Resources */,
+				EE77F9E51C68057400995FC0 /* bubble1.wav in Resources */,
 				4CD177A9BC980AFD99B45080 /* LaunchScreen.xib in Resources */,
+				EE77F9EE1C68057400995FC0 /* ho.mp3 in Resources */,
+				EE77F9EB1C68057400995FC0 /* drumroll.mp3 in Resources */,
+				EE77F9F51C68057400995FC0 /* sad-trombone.aiff in Resources */,
+				EE77F9EC1C68057400995FC0 /* elevator-badspeakers.mp3 in Resources */,
+				EE77F9ED1C68057400995FC0 /* gavel.mp3 in Resources */,
+				EE77F9EA1C68057400995FC0 /* doom.mp3 in Resources */,
 				485C141D5185A453E1396249 /* Settings.bundle in Resources */,
+				EE77F9F11C68057400995FC0 /* ninja-sword.mp3 in Resources */,
+				EE77F9F01C68057400995FC0 /* laser-prep.mp3 in Resources */,
+				EE77F9F31C68057400995FC0 /* ninja-whoosh.mp3 in Resources */,
+				EE77F9F41C68057400995FC0 /* notice.mp3 in Resources */,
+				EE77F9EF1C68057400995FC0 /* laser-prep-reverse.mp3 in Resources */,
+				EE77F9FA1C68057400995FC0 /* whoosh.mp3 in Resources */,
+				EE77F9F71C68057400995FC0 /* small-applause.mp3 in Resources */,
+				EE77F9E31C68057400995FC0 /* boo.mp3 in Resources */,
+				EE77F9E81C68057400995FC0 /* click0.mp3 in Resources */,
+				EE77F9F21C68057400995FC0 /* ninja-whack.mp3 in Resources */,
+				EE77F9E71C68057400995FC0 /* chat_incoming.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +482,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "KEYWORDS=\"TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nFILE_EXTENSIONS=\"swift|h|m|mm|c|cpp\"\nfind -E \"${SRCROOT}\" -ipath \"${SRCROOT}/Carthage\" -o -ipath \"${SRCROOT}/pods\" -prune -o \\( -regex \".*\\.($FILE_EXTENSIONS)$\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"\n";
+		};
+		2158D6C37F3AEB771A62510E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		25D3F20BDB739DABF0AF6B75 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		75980A37ADED98E0B7D12BA7 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -389,6 +541,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C96CE4C97EB2DDBCA36AED37 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F1DCB2B583DA6067F795D782 /* Embed Pods Frameworks */ = {
@@ -427,8 +594,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE77F9FD1C6805A800995FC0 /* NSString+FileNames.m in Sources */,
+				EE77F9C31C68006200995FC0 /* EASoundEffect.m in Sources */,
 				7AEF7A50C3E161ACA9C33111 /* EAAppDelegate.m in Sources */,
+				EE77F9BE1C67FE3000995FC0 /* EASoundManager.m in Sources */,
 				1A469D0B636E20DA7A7E5F90 /* main.m in Sources */,
+				EE77F9BA1C67FBBE00995FC0 /* EASoundPlayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +607,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE77F9C51C6800E100995FC0 /* EASoundEffectTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +636,7 @@
 				);
 				GCC_PREFIX_HEADER = "EASoundPlayerTests/Resources/EASoundPlayerTests-Prefix.pch";
 				INFOPLIST_FILE = "EASoundPlayerTests/Resources/EASoundPlayerTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skyefreeman.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -535,6 +708,7 @@
 				);
 				GCC_PREFIX_HEADER = "EASoundPlayerTests/Resources/EASoundPlayerTests-Prefix.pch";
 				INFOPLIST_FILE = "EASoundPlayerTests/Resources/EASoundPlayerTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skyefreeman.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -545,6 +719,7 @@
 		};
 		EDD558FCC97EBD46D6FB0F21 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02B55DD732151AC8014FA903 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -552,8 +727,10 @@
 				GCC_PREFIX_HEADER = "EASoundPlayer/Resources/Other-Sources/EASoundPlayer-Prefix.pch";
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "EASoundPlayer/Resources/Other-Sources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skyefreeman.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 			};
@@ -583,6 +760,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -617,14 +795,17 @@
 		};
 		F926A41CC944CC2FED1B1F1D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07AAD1D82FB9E0C8FF4348CB /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "EASoundPlayer/Resources/Other-Sources/EASoundPlayer-Prefix.pch";
 				INFOPLIST_FILE = "EASoundPlayer/Resources/Other-Sources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skyefreeman.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 			};
