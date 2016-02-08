@@ -276,7 +276,6 @@
 		BDE6618B244704B91D514685 /* EASoundPlayerTests */ = {
 			isa = PBXGroup;
 			children = (
-				EE77F9FE1C680EE500995FC0 /* Helpers */,
 				EE77FA001C680EE500995FC0 /* Resources */,
 				1B8002855DC970852E46C4B0 /* Tests */,
 			);
@@ -364,13 +363,6 @@
 				EE77F9E01C68057400995FC0 /* whoosh.mp3 */,
 			);
 			name = "Sound Files";
-			sourceTree = "<group>";
-		};
-		EE77F9FE1C680EE500995FC0 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Helpers;
 			sourceTree = "<group>";
 		};
 		EE77FA001C680EE500995FC0 /* Resources */ = {

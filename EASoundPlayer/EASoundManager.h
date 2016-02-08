@@ -10,6 +10,7 @@
 
 @interface EASoundManager : NSObject
 + (instancetype)sharedManager;
+
 - (void)playSound:(AVAudioPlayer*)sound;
 - (void)stopSound;
 @end
