@@ -14,8 +14,8 @@
                 <rect key="frame" x="0.0" y="0.0" width="136" height="136"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6I1-6e-XAB">
-                        <rect key="frame" x="47" y="57" width="42" height="21"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="136" translatesAutoresizingMaskIntoConstraints="NO" id="6I1-6e-XAB">
+                        <rect key="frame" x="8" y="8" width="120" height="120"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
@@ -25,7 +25,11 @@
             </view>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
+                <constraint firstAttribute="trailing" secondItem="6I1-6e-XAB" secondAttribute="trailing" constant="8" id="5I1-3z-tqs"/>
                 <constraint firstItem="6I1-6e-XAB" firstAttribute="centerX" secondItem="Mmt-jm-EeO" secondAttribute="centerX" id="8HU-xb-Qmk"/>
+                <constraint firstItem="6I1-6e-XAB" firstAttribute="leading" secondItem="Mmt-jm-EeO" secondAttribute="leading" constant="8" id="Ap2-3H-MGu"/>
+                <constraint firstAttribute="bottom" secondItem="6I1-6e-XAB" secondAttribute="bottom" constant="8" id="MTQ-zx-BUQ"/>
+                <constraint firstItem="6I1-6e-XAB" firstAttribute="top" secondItem="Mmt-jm-EeO" secondAttribute="top" constant="8" id="O1q-U5-ggQ"/>
                 <constraint firstItem="6I1-6e-XAB" firstAttribute="centerY" secondItem="Mmt-jm-EeO" secondAttribute="centerY" id="sKu-JV-inf"/>
             </constraints>
             <size key="customSize" width="136" height="136"/>

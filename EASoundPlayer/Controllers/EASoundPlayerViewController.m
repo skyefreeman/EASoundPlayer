@@ -7,15 +7,16 @@
 //
 
 #import "EASoundPlayerViewController.h"
+
 #import "EAArrayCollectionViewDataSource.h"
 
-#import "EAConstants.h"
 #import "EASoundManager.h"
 #import "EASoundEffect.h"
 #import "EASoundEffectCell.h"
 
 #import <ObjectiveSugar.h>
 #import "NSString+FileNames.h"
+#import "UIView+Animations.h"
 
 @interface EASoundPlayerViewController() <UICollectionViewDelegateFlowLayout>
 @property (nonatomic, strong) EASoundManager *soundManager;
@@ -27,6 +28,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [self setTitle:@"EA Sound Player"];
     
     self.soundManager = [EASoundManager sharedManager];
     self.soundEffects = [[NSString allSoundFilenames] map:^id(NSString *fileName) {
@@ -51,7 +54,10 @@
 
 #pragma mark - UICollectionViewDelegate
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-    NSLog(@"touched");
+    [self.soundManager playSound:[self.dataSource itemAtIndexPath:indexPath]];
+    
+    UICollectionViewCell *cell = [collectionView cellForItemAtIndexPath:indexPath];
+    [cell spin];
 }
 
 @end

@@ -30,13 +30,15 @@
     NSAssert([sound isKindOfClass:[AVAudioPlayer class]], @"Did not send an AVAudioplayer to EASoundManager");
     
     [self.soundEffect stop];
+    
     self.soundEffect = sound;
+    [self.soundEffect setCurrentTime:0.0];
+    
     [self.soundEffect play];
 }
 
 - (void)stopSound {
     [self.soundEffect stop];
 }
-
 
 @end

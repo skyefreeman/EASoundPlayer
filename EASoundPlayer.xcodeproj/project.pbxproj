@@ -53,6 +53,7 @@
 		EE77FA0D1C681C0D00995FC0 /* EASoundEffectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE77FA0C1C681C0D00995FC0 /* EASoundEffectCell.xib */; };
 		EE77FA101C6824BE00995FC0 /* EAArrayCollectionViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EE77FA0F1C6824BE00995FC0 /* EAArrayCollectionViewDataSource.m */; };
 		EE77FA121C682BE600995FC0 /* EAArrayCollectionViewDataSourceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE77FA111C682BE600995FC0 /* EAArrayCollectionViewDataSourceTests.m */; };
+		EE92F37D1C683D9A0008E6B0 /* UIView+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = EE92F37C1C683D9A0008E6B0 /* UIView+Animations.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,7 +129,8 @@
 		EE77FA0E1C6824BE00995FC0 /* EAArrayCollectionViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAArrayCollectionViewDataSource.h; sourceTree = "<group>"; };
 		EE77FA0F1C6824BE00995FC0 /* EAArrayCollectionViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAArrayCollectionViewDataSource.m; sourceTree = "<group>"; };
 		EE77FA111C682BE600995FC0 /* EAArrayCollectionViewDataSourceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAArrayCollectionViewDataSourceTests.m; sourceTree = "<group>"; };
-		EE92F37A1C6833FD0008E6B0 /* EAConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAConstants.h; sourceTree = "<group>"; };
+		EE92F37B1C683D9A0008E6B0 /* UIView+Animations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Animations.h"; sourceTree = "<group>"; };
+		EE92F37C1C683D9A0008E6B0 /* UIView+Animations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animations.m"; sourceTree = "<group>"; };
 		F5C0238880362E8138DCED3E /* Pods-unit_tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -234,23 +236,14 @@
 			path = Nibs;
 			sourceTree = "<group>";
 		};
-		76F66F1D2566987636EF3E92 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
 		84C73CD010B47BB4573681B8 /* EASoundPlayer */ = {
 			isa = PBXGroup;
 			children = (
 				BF6C201338A802A4D75305FE /* EAAppDelegate.h */,
 				255367F1B65F0BA08340E22E /* EAAppDelegate.m */,
-				EE92F37A1C6833FD0008E6B0 /* EAConstants.h */,
-				EE77F9BB1C67FE1600995FC0 /* Singletons */,
+				EE77F9BB1C67FE1600995FC0 /* Managers */,
 				E4FF4DF4F2C9A11E74AFB279 /* Categories */,
 				43561C19DBC5DB3FDCCFB6C1 /* Models */,
-				76F66F1D2566987636EF3E92 /* ViewModels */,
 				46469DC1B339605A6D432FE5 /* Controllers */,
 				273343756896268AEF1032CA /* Views */,
 				E5D0E0BA633A496E9C07BF29 /* Resources */,
@@ -303,6 +296,8 @@
 			children = (
 				EE77F9FB1C6805A800995FC0 /* NSString+FileNames.h */,
 				EE77F9FC1C6805A800995FC0 /* NSString+FileNames.m */,
+				EE92F37B1C683D9A0008E6B0 /* UIView+Animations.h */,
+				EE92F37C1C683D9A0008E6B0 /* UIView+Animations.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -329,13 +324,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EE77F9BB1C67FE1600995FC0 /* Singletons */ = {
+		EE77F9BB1C67FE1600995FC0 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
 				EE77F9BC1C67FE2F00995FC0 /* EASoundManager.h */,
 				EE77F9BD1C67FE2F00995FC0 /* EASoundManager.m */,
 			);
-			name = Singletons;
+			name = Managers;
 			sourceTree = "<group>";
 		};
 		EE77F9C61C68052300995FC0 /* Sound Files */ = {
@@ -640,6 +635,7 @@
 				EE77FA101C6824BE00995FC0 /* EAArrayCollectionViewDataSource.m in Sources */,
 				EE77F9C31C68006200995FC0 /* EASoundEffect.m in Sources */,
 				7AEF7A50C3E161ACA9C33111 /* EAAppDelegate.m in Sources */,
+				EE92F37D1C683D9A0008E6B0 /* UIView+Animations.m in Sources */,
 				EE77F9BE1C67FE3000995FC0 /* EASoundManager.m in Sources */,
 				1A469D0B636E20DA7A7E5F90 /* main.m in Sources */,
 				EE77FA0B1C681BEB00995FC0 /* EASoundEffectCell.m in Sources */,
@@ -768,7 +764,7 @@
 			baseConfigurationReference = 02B55DD732151AC8014FA903 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "EASoundPlayer/Resources/Other-Sources/EASoundPlayer-Prefix.pch";
@@ -780,6 +776,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.skyefreeman.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -845,7 +842,7 @@
 			baseConfigurationReference = 07AAD1D82FB9E0C8FF4348CB /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "EASoundPlayer/Resources/Other-Sources/EASoundPlayer-Prefix.pch";
@@ -856,6 +853,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.skyefreeman.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
