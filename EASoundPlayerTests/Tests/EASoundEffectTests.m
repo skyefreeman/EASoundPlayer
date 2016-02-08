@@ -6,8 +6,6 @@
 //  Copyright © 2016 Skye Freeman. All rights reserved.
 //
 
-#import <Specta/Specta.h>
-#import <Expecta/Expecta.h>
 #import "EASoundEffect.h"
 
 SpecBegin(SoundEffect)
@@ -18,9 +16,9 @@ beforeEach(^{
     soundEffect = [[EASoundEffect alloc] initWithFilename:@"fileName"];
 });
 
-describe(@"initializing", ^{
-    it(@"generates sound player", ^{
-        //        expect(menu.buttonSpacing).to.equal(0.0);
+describe(@"custom init", ^{
+    it(@"generates file from filename", ^{
+        expect(soundEffect).toNot.beNil;
     });
 });
 

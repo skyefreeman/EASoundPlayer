@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface EASoundPlayerViewController : UIViewController
+@interface EASoundPlayerViewController : UICollectionViewController
 
 @end
