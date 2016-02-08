@@ -7,63 +7,45 @@
 //
 
 #import "EASoundPlayerViewController.h"
+#import "EAArrayCollectionViewDataSource.h"
+
+#import "EAConstants.h"
+#import "EASoundManager.h"
+#import "EASoundEffect.h"
+#import "EASoundEffectCell.h"
 
 #import <ObjectiveSugar.h>
-
-#import "EASoundManager.h"
-
-#import "EASoundEffect.h"
-
 #import "NSString+FileNames.h"
 
-#import "EASoundEffectCell.h"
 @interface EASoundPlayerViewController() <UICollectionViewDelegateFlowLayout>
 @property (nonatomic, strong) EASoundManager *soundManager;
 @property (nonatomic, strong) NSArray *soundEffects;
+@property (nonatomic, strong) EAArrayCollectionViewDataSource *dataSource;
 @end
 
 @implementation EASoundPlayerViewController
 
-- (void)awakeFromNib {
-    [super awakeFromNib];
+- (void)viewDidLoad {
+    [super viewDidLoad];
     
     self.soundManager = [EASoundManager sharedManager];
     self.soundEffects = [[NSString allSoundFilenames] map:^id(NSString *fileName) {
         return [[EASoundEffect alloc] initWithFilename:fileName];
     }];
-}
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
+    
+    EAArrayConfigureBlock block = ^void(EASoundEffectCell *cell, EASoundEffect *effect){
+        [cell configureWithTitle:effect.fileName];
+    };
+    self.dataSource = [[EAArrayCollectionViewDataSource alloc] initWithArray:self.soundEffects configureBlock:block cellReuseID:[EASoundEffectCell reuseIdentifier]];
     
     self.collectionView.delegate = self;
-    self.collectionView.dataSource = self;
+    self.collectionView.dataSource = self.dataSource;
     [self.collectionView registerNib:[EASoundEffectCell nib] forCellWithReuseIdentifier:[EASoundEffectCell reuseIdentifier]];
 }
 
-- (void)viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:animated];
-    
-    [self.soundManager playSound:self.soundEffects.firstObject];
-}
-
-#pragma mark - UICollectionViewDataSource
-- (UICollectionViewCell*)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    EASoundEffectCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:[EASoundEffectCell reuseIdentifier] forIndexPath:indexPath];
-    [cell configureWithTitle:@"title"];
-    return cell;
-}
-
-- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    return 10;
-}
-
-- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
-    return 1;
-}
-
+#pragma mark - UICollectionViewDelegateFlowLayout
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
-    CGFloat dimensions = self.view.frame.size.width/2 - 1;
+    CGFloat dimensions = self.view.frame.size.width/2;
     return CGSizeMake(dimensions, dimensions);
 }
 

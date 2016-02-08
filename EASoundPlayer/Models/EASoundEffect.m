@@ -22,7 +22,7 @@
     self = [super initWithData:data error:&audioError];
     if (!self) { NSLog(@"%@",[audioError localizedDescription]); return nil; }
     
-    NSLog(@"%@",self);
+    _fileName = fileName;
     
     return self;
 }

@@ -128,6 +128,7 @@
 		EE77FA0E1C6824BE00995FC0 /* EAArrayCollectionViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAArrayCollectionViewDataSource.h; sourceTree = "<group>"; };
 		EE77FA0F1C6824BE00995FC0 /* EAArrayCollectionViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAArrayCollectionViewDataSource.m; sourceTree = "<group>"; };
 		EE77FA111C682BE600995FC0 /* EAArrayCollectionViewDataSourceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAArrayCollectionViewDataSourceTests.m; sourceTree = "<group>"; };
+		EE92F37A1C6833FD0008E6B0 /* EAConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAConstants.h; sourceTree = "<group>"; };
 		F5C0238880362E8138DCED3E /* Pods-unit_tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -245,6 +246,7 @@
 			children = (
 				BF6C201338A802A4D75305FE /* EAAppDelegate.h */,
 				255367F1B65F0BA08340E22E /* EAAppDelegate.m */,
+				EE92F37A1C6833FD0008E6B0 /* EAConstants.h */,
 				EE77F9BB1C67FE1600995FC0 /* Singletons */,
 				E4FF4DF4F2C9A11E74AFB279 /* Categories */,
 				43561C19DBC5DB3FDCCFB6C1 /* Models */,

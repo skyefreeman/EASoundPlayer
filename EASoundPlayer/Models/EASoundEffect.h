@@ -10,4 +10,5 @@
 
 @interface EASoundEffect : AVAudioPlayer
 - (instancetype)initWithFilename:(NSString*)fileName;
+@property (nonatomic, copy, readonly) NSString *fileName;
 @end

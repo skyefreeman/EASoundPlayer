@@ -16,6 +16,10 @@
 
 - (void)awakeFromNib {
     self.backgroundColor = [UIColor colorWithRed:1.000 green:0.261 blue:0.228 alpha:1.000];
+    self.titleLabel.textColor = [UIColor whiteColor];
+
+    self.layer.borderColor = [UIColor whiteColor].CGColor;
+    self.layer.borderWidth = 1.0;
 }
 
 - (void)configureWithTitle:(NSString*)title {

@@ -4,6 +4,8 @@ platform :ios, '7.0'
 
 # Add Application pods here
 pod 'ObjectiveSugar'
+pod 'JHChainableAnimations'
+
 #pod 'Realm'
 #pod 'AFNetworking'
 
@@ -17,7 +19,6 @@ end
 
 
 # Copy acknowledgements to the Settings.bundle
-
 post_install do | installer |
     require 'fileutils'
     

@@ -20,6 +20,10 @@ describe(@"custom init", ^{
     it(@"generates file from filename", ^{
         expect(soundEffect).toNot.beNil;
     });
+    
+    it(@"saves the filename", ^{
+        expect([soundEffect.fileName isEqualToString:@"fileName"]).to.beTruthy;
+    });
 });
 
 SpecEnd
